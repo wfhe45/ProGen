@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Anatomy-Guided Prostate FM</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">
+            An anatomy-guided generalist foundation model integrates spatial delineation and diagnostic classification in prostate MRI
+          </h1>
+          <div class="is-size-5 publication-authors">
+            <!-- Paper authors -->
+            <span class="author-block">Wenfeng He,</span>
+            <span class="author-block">Shansong Wang,</span>
+            <span class="author-block">Mojtaba Safari,</span>
+            <span class="author-block">Xiaofeng Yang<sup>†</sup></span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">Emory University</span><br>
+            <span class="author-block">Department of Radiation Oncology and Winship Cancer Institute, Atlanta, GA</span>
+            <span class="eql-cntrb"><small><br><sup>†</sup>Correspondence to: xiaofeng.yang@emory.edu</small></span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- ArXiv abstract Link -->
+              <span class="link-block">
+                <a href="YOUR_ARXIV_URL" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="ai ai-arxiv"></i>
+                </span>
+                <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Published paper -->
+              <span class="link-block">
+                <a href="YOUR_PAPER_URL" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Paper</span>
+                </a>
+              </span>
+              <!-- Github link -->
+              <span class="link-block">
+                <a href="YOUR_GITHUB_URL" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code</span>
+                </a>
+              </span>
+              <!-- Colab link -->
+              <span class="link-block">
+                <a href="YOUR_COLAB_URL" target="_blank" class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Google Colab</title><path d="M16.9414 4.9757a7.033 7.033 0 0 0-4.9308 2.0646 7.033 7.033 0 0 0-.1232 9.8068l2.395-2.395a3.6455 3.6455 0 0 1 5.1497-5.1478l2.397-2.3989a7.033 7.033 0 0 0-4.8877-1.9297zM7.07 4.9855a7.033 7.033 0 0 0-4.8878 1.9316l2.3911 2.3911a3.6434 3.6434 0 0 1 5.0227.1271l1.7341-2.9737-.0997-.0802A7.033 7.033 0 0 0 7.07 4.9855zm15.0093 2.1721l-2.3892 2.3911a3.6455 3.6455 0 0 1-5.1497 5.1497l-2.4067 2.4068a7.0362 7.0362 0 0 0 9.9456-9.9476zM1.932 7.1674a7.033 7.033 0 0 0-.002 9.6816l2.397-2.397a3.6434 3.6434 0 0 1-.004-4.8916zm7.664 7.4235c-1.38 1.3816-3.5863 1.411-5.0168.1134l-2.397 2.395c2.4693 2.3328 6.263 2.5753 9.0072.5455l.1368-.1115z"/></svg>
+                </span>
+                  <span>Colab</span>
+                </a>
+              </span>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+<!--      <div class="item">-->
+        <!-- Your image here -->
+<!--      <div class='paper-box-image'>-->
+      <div class="container">
+<!--        <div>-->
+        <div class="badge">Journal Name / Conference Year</div>
+        <img src="static/images/figure1_3.png" alt="Figure 1: Anatomy-guided generalist foundation model for prostate MRI" title="Anatomy-guided generalist foundation model for prostate MRI">
+        <h2 class="subtitle has-text-centered" style="margin-top: 15px; font-size: 1.1rem;">
+          <b>Figure 1. Overview of the anatomy-guided foundation model for the prostate MRI diagnostic continuum.</b> a. Dataset assembly for large-scale self-supervised pretraining. We curated Pro-7M from 27 retrospective prostate MRI datasets, comprising more than 30,000 cases, 39,587 MRI volumes, and over 7 million slices.
+        </h2>
+<!--        </div>-->
+      </div>
+<!--      </div>-->
+<!--      <video poster="" id="tree" autoplay controls muted loop height="100%">-->
+<!--        &lt;!&ndash; Your video here &ndash;&gt;-->
+<!--        <source src="static/videos/banner_video.mp4"-->
+<!--        type="video/mp4">-->
+<!--      </video>-->
+<!--      <h2 class="subtitle has-text-centered">-->
+<!--        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.-->
+<!--      </h2>-->
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Prostate multiparametric MRI has transformed cancer diagnosis by enabling image-guided risk assessment, yet its interpretation remains challenging because it requires coordinated anatomical localization, lesion delineation and diagnostic classification across heterogeneous imaging sequences. Current medical AI systems are often optimized for isolated tasks and therefore poorly aligned with the sequential reasoning used in clinical prostate MRI assessment. Here we introduce ProGen, an anatomy-guided generalist foundation model for prostate MRI. ProGen is pretrained on Pro-7M, a large-scale consortium comprising 39,587 MRI volumes and over 7 million slices from 27 retrospective datasets across five mpMRI modalities, including T2W, T1W, ADC, DWI and DCE. Using a modality-aware 3D masked autoencoding framework with boundary-preserving and asymmetry-aware priors, ProGen is evaluated across eight spatial and diagnostic tasks. ProGen consistently outperforms supervised baselines, supporting its potential for non-invasive prostate cancer management.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+<!-- &lt;!&ndash; One video &ndash;&gt;--> 
+<section class="hero is-small is-light">
+ <div class="hero-body">
+   <div class="container">
+     <div class="columns is-centered has-text-centered">
+       <div class="column is-four-fifths">
+         <h2 class="title is-3">Quantitative Benchmarking</h2>
+         <img src="static/images/figure2.png" loading="lazy" alt="Figure 2: Quantitative benchmarking of the foundation model across spatial delineation tasks.">
+         <h3 class="subtitle has-text-centered" style="font-size: 1rem; margin-top: 10px;"><b>Figure 2. Quantitative benchmarking of the foundation model across spatial delineation tasks.</b></h3>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+<!--&lt;!&ndash; End one video &ndash;&gt; -->
+
+
+<!-- Method Image carousel -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Visualizations and Performance</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <img src="static/images/figure3.png" alt="Figure 3"/>
+          <h2 class="subtitle has-text-centered" style="font-size: 0.9rem; padding: 10px;">
+            <b>Figure 3. Qualitative comparison of spatial delineation performance.</b> Representative MRI slices illustrate the segmentation boundaries generated by the best-performing supervised baseline and the proposed foundation model, ProGen.
+          </h2>
+        </div>
+        <div class="item">
+          <img src="static/images/figure4.png" alt="Figure 4"/>
+          <h2 class="subtitle has-text-centered" style="font-size: 0.9rem; padding: 10px;">
+            <b>Figure 4. Quantitative benchmarking of the foundation model across diagnostic classification tasks.</b> schematic overview of the four downstream classification objectives. The tasks are defined by their specific input conditions, incorporating localized lesion regions, global patient volumes, and a clinically constrained gray-zone cohort.
+          </h2>
+        </div>
+        <div class="item">
+          <img src="static/images/figure5.png" alt="Figure 5"/>
+          <h2 class="subtitle has-text-centered" style="font-size: 0.9rem; padding: 10px;">
+            <b>Figure 5. Comprehensive performance across diagnostic classification tasks.</b> a,b. Heatmaps showing specificity (a) and recall (b) across four downstream diagnostic tasks, including lesion-level classification, patient-level classification, PI-RADS prediction, and PSA gray-zone triage.
+          </h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Method image carousel -->
+
+
+
+
+<!--&lt;!&ndash; Video carousel &ndash;&gt;-->
+<!--<section class="hero is-small">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <h2 class="title is-3">Another Carousel</h2>-->
+<!--      <div id="results-carousel" class="carousel results-carousel">-->
+<!--        <div class="item item-video1">-->
+<!--          <video poster="" id="video1" autoplay controls muted loop height="100%">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/carousel1.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video2">-->
+<!--          <video poster="" id="video2" autoplay controls muted loop height="100%">-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/carousel2.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--        <div class="item item-video3">-->
+<!--          <video poster="" id="video3" autoplay controls muted loop height="100%">\-->
+<!--            &lt;!&ndash; Your video file here &ndash;&gt;-->
+<!--            <source src="static/videos/carousel3.mp4"-->
+<!--            type="video/mp4">-->
+<!--          </video>-->
+<!--        </div>-->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</section>-->
+<!--&lt;!&ndash; End video carousel &ndash;&gt;-->
+
+
+
+
+
+
+<!--&lt;!&ndash; External pages &ndash;&gt;-->
+<!--<section class="hero is-small is-light">-->
+<!--  <div class="hero-body">-->
+<!--    <div class="container">-->
+<!--      <h2 class="title">Run via Colab</h2>-->
+<!--      <iframe id="fold_content" src="https://colab.research.google.com/github/jianqingzheng/res_aligner_net/blob/main/res_aligner_net.ipynb" style="border:0px; width:100%; height:50em" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+<!--&lt;!&ndash;      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">&ndash;&gt;-->
+<!--&lt;!&ndash;          </iframe>&ndash;&gt;-->
+<!--        -->
+<!--      </div>-->
+<!--    </div>-->
+<!--  </section>-->
+<!--&lt;!&ndash;End External pages &ndash;&gt;-->
+
+
+<!--BibTex citation -->
+<section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+    @article{anatomy_guided_prostate_fm_2026,
+      title={An anatomy-guided generalist foundation model integrates spatial delineation and diagnostic classification in prostate MRI},
+      author={He, Wenfeng and Wang, Shansong and Safari, Mojtaba and Yang, Xiaofeng},
+      journal={npj Digital Medicine},
+      year={2026}
+    } 
+    </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p style="color: gray">
+            <small>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+            </small>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+</body>
+</html>
